@@ -1,5 +1,8 @@
 import { Component } from 'react';
 import Prtis from './prtis'
+import AddUser from './new_user'
+
+// You import by saying import <CLASS>/<FUNCTION> from <FILE>
 
 /*
 function App() {
@@ -25,6 +28,7 @@ class App extends Component {
       <div className="App">
         <h1>Hey! Wassup!?</h1>
         <Prtis prtis={this.state.prtis}/>
+        <AddUser/>
       </div>
     )
   }
